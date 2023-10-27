@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- <link rel="stylesheet" href="index.css"> -->
+        <title>HTML class</title>
+        <style>
+
+            h1{
+                color: #201382;
+            }
+        </style>
+    </head>
+    <body>
+     <!-- <h1>Hello ,This is first class of html</h1>
+     <h2>Hello ,This is first class of html</h2>
+     <h3 style="color: green;">Hello ,This is first class of html</h3>
+     <h4>Hello ,This is first class of html</h4>
+     <h5>Hello ,This is first class of html</h5>
+     <h6>Hello ,This is first class of html</h6>
+     
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, facere molestiae! In enim quos delectus temporibus ad esse voluptas consequatur velit corrupti id tenetur nemo placeat eligendi tempora laudantium dolore, minus, saepe assumenda adipisci odio ut nulla sed? Vitae tenetur animi suscipit non magni illo impedit dolores officia deserunt tempora.</p>
+    <!-- list type 
+       ordered list and unorderd list
+      . apple
+      . orange
+    -->
+    <!-- <ol>
+        <li>apple</li>
+        <li>orange</li>
+        <li>banana</li>
+    </ol>
+<ul>
+        <li>apple</li>
+        <li>orange</li>
+        <li>banana</li>
+</ul>
+table creation in HTML -->
+<!-- <table>
+    <tr>
+        <th>Name </th>
+        <th>Roll no </th>
+    </tr>
+    <tr>
+        <td>Navin</td>
+        <td>400</td>
+    </tr>
+</table> -->
+<!-- 
+<a href="hvscode-file://vscode-app/c:/Users/GFG0274/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/code/electron-sandbox/workbench/workbench.htmlttps://www.geeksforgeeks.org/" target="_self">Geeksforgeeks</a> -->
+<!-- 
+<img src="./img/bulb on.jfi" alt="bulb image">
+
+<p>Lorem ipsum dolor sit, <span>lorem</span> amet consectetur adipisicing elit. Sed placeat at maxime enim quis pariatur adipisci velit quae dolor eaque, fugiat nulla soluta dolorum exercitationem ut similique sit laborum? Nisi?</p>
+
+<form >
+    <input type="text"  placeholder="Enter your name">
+    <input type="number"  placeholder="Enter your email">
+
+    <input type="password"  placeholder="Enter your password">
+ 
+    <label for="gender">Gender</label>
+    <input type="checkbox" name="gen" id="gender">
+    <label for="male">Male</label>
+    <input type="checkbox"  name="gen" >
+    <label for="female">Feamle</label>
+
+
+</form> --> 
+
+<!-- <div class="box">
+    <div class="box-1">Box-1</div>
+    <div class="box-1">Box-2</div>
+    <div class="box-1">Box-3</div>
+    <div class="box-1">Box-4</div>
+   
+    
+</div>
+<input type="file" > -->
+
+<button class="click" id="btn">Click </button>
+<!-- <button class="click" id="btn">Click </button> -->
+<p></p>
+
+
+    <label for="name">Name :</label>
+    <input type="text" class="name" id="name">
+
+
+<script>
+
+let bt3=document.querySelector("#btn")
+bt3.addEventListener("click",()=>{
+    let user=prompt("Enter your name")
+  alert(`hello ${user} welcome to my web page`)
+})
+
+let user=document.querySelector(".name");
+user.addEventListener("change",(event)=>{
+    console.log(event.target.value)
+    
+})
+
+
+
+</script>
+    </body>
+</html>

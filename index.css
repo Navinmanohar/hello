@@ -1,0 +1,21 @@
+.box{
+   display: flex;
+   flex-direction:row;
+}
+.box-1{
+    width: 150px;
+    height: 150px;
+    background-color: #e22f2f;
+    
+    margin: 40px 0px 20px 20px;
+    color: wheat;
+    border: 20px solid  #0a0909;
+    transition: all 3s;
+    box-shadow: 10px 10px 10px 10px #b15151;
+
+    
+}
+.box-1:hover{
+    width: 400px;
+    height: 300px;
+}
